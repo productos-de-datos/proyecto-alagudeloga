@@ -123,7 +123,7 @@
     {
       "name": "Test 13",
       "setup": "pip3 install matplotlib sklearn pandas luigi pytest pylint",
-      "run": "pylint src/features/make_features.py",
+      "run": "pylint *.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -133,7 +133,7 @@
     {
       "name": "Test 14",
       "setup": "pip3 install matplotlib sklearn pandas luigi pytest pylint",
-      "run": "pytest test.py",
+      "run": "pytest",
       "input": "",
       "output": "",
       "comparison": "included",
